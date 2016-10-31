@@ -1,0 +1,38 @@
+.container-fluid
+{
+	padding: 0px 0px 10px 0px;
+}
+img
+{
+	width: 100%;
+}
+div
+{
+	padding-bottom: 10px;
+}
+.img-rounded.sub_image
+{
+	height: 150px;
+}
+@media only screen and (max-device-width: 480px) 
+{
+	#banner_image
+	{
+		height: 200px;
+	}	
+	.img-rounded.left_image
+	{
+		height: 150px;
+	}
+}
+.heading
+{
+	position: absolute;
+	top: 20%;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	width: 95%;
+	text-align: center;
+	padding-right: 20px;
+}
